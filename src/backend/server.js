@@ -15,6 +15,7 @@ app.set('port', process.env.PORT || 4000);
 app.use('/assets', express.static('dist'));
 
 // Routes
+app.get('/', (req, res) => res.render('index') );
 
 // Error handling
 
