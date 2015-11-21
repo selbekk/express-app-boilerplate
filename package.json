@@ -20,7 +20,14 @@
     "express-handlebars": "latest",
     "object-assign": "latest"
   },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
   "devDependencies": {
+    "babel-core": "latest",
+    "babel-preset-es2015": "latest",
     "babelify": "latest",
     "browserify": "latest",
     "less": "latest",
